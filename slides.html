@@ -185,14 +185,14 @@ class: center, middle, inverse, title-slide
 
 
 
-background-image: url(/Users/mwk/Desktop/logo.svg)
+background-image: url(img/logo.svg)
 
 ---
 class: center, middle
 
 # rtweet
 
-### /ˈärtwēt/
+### /ärtwēt/
 
 ---
 
@@ -216,30 +216,27 @@ class: center, middle
 
 - Github repo: [mkearney/rtweet](https://github.com/mkearney/rtweet)
 
-[![Generic badge](https://img.shields.io/badge/stars-209-green.svg)](https://github.com/mkearney/rtweet/)
+[![Generic badge](https://img.shields.io/badge/stars-209-blue.svg)](https://github.com/mkearney/rtweet/)[![Generic badge](https://img.shields.io/badge/forks-47-blue.svg)](https://github.com/mkearney/rtweet/)
 
 ---
 
 # Install
 
-- Install the **{rtweet}** package from [CRAN](https://cran.r-project/package=rtweet):
+- Install **{rtweet}** [CRAN](https://cran.r-project/package=rtweet).
 
 
 ```r
 install.packages(&quot;rtweet&quot;)
 ```
 
-- Or install the development version from [Github](https://github.com/mkearney/rtweet):
+- Or install the **development version** from [Github](https://github.com/mkearney/rtweet).
 
 
 ```r
 devtools::install_github(&quot;mkearney/rtweet&quot;)
 ```
 
- **Load**
-
 - Load **{rtweet}**
-
 
 
 ```r
@@ -272,7 +269,7 @@ For public APIs, many sites only allow **authorized** users
 
 To connect to Twitter's APIs, users need a **consumer key** and **consumer secret**, which you can get by creating a Twitter app. 
 
-View the built-in vignette **`auth`** for instructions on obtaining and storing user access tokens.&lt;sup&gt; \* &lt;/sup&gt;
+View the built-in vignette **`auth`** for instructions on obtaining and storing user access tokens.&lt;sup&gt;\* &lt;/sup&gt;
 
 
 ```r
@@ -333,7 +330,7 @@ app_name &lt;- &quot;mwk_twitter_app&quot;
 
 
 ```r
-## copy and pasted keys
+## copy and pasted *your* keys (these are fake)
 consumer_key &lt;- &quot;XYznzPFOFZR2a39FwWKN1Jp41&quot;
 consumer_secret &lt;- &quot;CtkGEWmSevZqJuKl6HHrBxbCybxI1xGLqrD5ynPd9jG0SoHZbD&quot;
 ```
@@ -342,7 +339,7 @@ consumer_secret &lt;- &quot;CtkGEWmSevZqJuKl6HHrBxbCybxI1xGLqrD5ynPd9jG0SoHZbD&q
 
 # Create a token
 
-&lt;span&gt;8.&lt;/span&gt; Pass the stored values to `create_token()` to create the Twitter authorization token
+&lt;span&gt;8.&lt;/span&gt; Pass the stored values to `create_token()` to create the Twitter authorization token.
 
 
 ```r
@@ -374,7 +371,7 @@ cat(env_var, file = file.path(path.expand(&quot;~&quot;), &quot;.Renviron&quot;)
   fill = TRUE, append = TRUE)
 ```
 
-Normally `.Renviron` is processed on startup, so refresh it.
+Normally `.Renviron` is processed on start-up, so refresh it.
 
 
 ```r
@@ -417,7 +414,7 @@ Get the list of accounts **followed by** @jack (co-founder and CEO of Twitter).
 fds &lt;- get_friends(&quot;jack&quot;)
 ```
 
-Or get friends of **multiple** users in a single call.
+Get friends of **multiple** users in a single call.
 
 
 ```r
@@ -555,7 +552,7 @@ Search by **source** of a tweet (e.g., only tweets sent using `ifttt`&lt;sup&gt;
 
 ```r
 ## search for english tweets sent via ifttt
-rt &lt;- search_tweets(&quot;lang: source:ifttt&quot;)
+rt &lt;- search_tweets(&quot;lang:en source:ifttt&quot;, n = 300)
 table(rt$source)
 ```
 
@@ -570,22 +567,22 @@ table(rt$source)
 &lt;tbody&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt; IFTTT &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 90 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 52 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt; Twitter for Android &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 3 &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; Twitter for iPad &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 2 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 10 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt; Twitter for iPhone &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 2 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 5 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; Twitter Lite &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Twitter Web Client &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 3 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Ethereal Heart &lt;/td&gt;
    &lt;td style=&quot;text-align:right;&quot;&gt; 1 &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -629,7 +626,7 @@ kmw_favs &lt;- get_favorites(&quot;kearneymw&quot;, n = 3000)
 ts_plot(kmw_favs, &quot;3 days&quot;)
 ```
 
-&lt;span style=&quot;margin-left:1%&quot;&gt;&lt;img src=&quot;img/cnn.png&quot; width=&quot;90%&quot; height=&quot;auto&quot; /&gt;&lt;/span&gt;
+&lt;span style=&quot;margin-left:1%&quot;&gt;&lt;img src=&quot;img/kmw.png&quot; width=&quot;90%&quot; height=&quot;auto&quot; /&gt;&lt;/span&gt;
 
 
 ---
@@ -683,7 +680,7 @@ class: inverse, center, middle
 
 Capture tweets in real time via...
 
-- &quot;Random&quot; sampling
+- &quot;Random&quot; **sample**
 
 
 ```r
@@ -691,7 +688,7 @@ Capture tweets in real time via...
 st &lt;- stream_tweets(q = &quot;&quot;, timeout = 30)
 ```
 
-- Filtering by keyword
+- **Filter** by keyword
 
 
 ```r
@@ -699,7 +696,7 @@ st &lt;- stream_tweets(q = &quot;&quot;, timeout = 30)
 st &lt;- stream_tweets(q = &quot;realDonaldTrump,Mueller&quot;, timeout = 30)
 ```
 
-- Locating by bounding box
+- **Locate** by bounding box
 
 
 ```r

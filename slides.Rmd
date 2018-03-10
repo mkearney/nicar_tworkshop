@@ -35,14 +35,14 @@ DT <- function(x) {
 }
 ```
 
-background-image: url(/Users/mwk/Desktop/logo.svg)
+background-image: url(img/logo.svg)
 
 ---
 class: center, middle
 
 # rtweet
 
-### /ˈärtwēt/
+### /ärtwēt/
 
 ---
 
@@ -66,28 +66,25 @@ class: center, middle
 
 - Github repo: [mkearney/rtweet](https://github.com/mkearney/rtweet)
 
-[![Generic badge](https://img.shields.io/badge/stars-209-green.svg)](https://github.com/mkearney/rtweet/)
+[![Generic badge](https://img.shields.io/badge/stars-209-blue.svg)](https://github.com/mkearney/rtweet/)[![Generic badge](https://img.shields.io/badge/forks-47-blue.svg)](https://github.com/mkearney/rtweet/)
 
 ---
 
 # Install
 
-- Install the **{rtweet}** package from [CRAN](https://cran.r-project/package=rtweet):
+- Install **{rtweet}** [CRAN](https://cran.r-project/package=rtweet).
 
 ```{r tidy=FALSE}
 install.packages("rtweet")
 ```
 
-- Or install the development version from [Github](https://github.com/mkearney/rtweet):
+- Or install the **development version** from [Github](https://github.com/mkearney/rtweet).
 
 ```{r tidy=FALSE}
 devtools::install_github("mkearney/rtweet")
 ```
 
- **Load**
-
 - Load **{rtweet}**
-
 
 ```{r tidy=FALSE}
 library(rtweet)
@@ -119,7 +116,7 @@ For public APIs, many sites only allow **authorized** users
 
 To connect to Twitter's APIs, users need a **consumer key** and **consumer secret**, which you can get by creating a Twitter app. 
 
-View the built-in vignette **`auth`** for instructions on obtaining and storing user access tokens.<sup> \* </sup>
+View the built-in vignette **`auth`** for instructions on obtaining and storing user access tokens.<sup>\* </sup>
 
 ```{r}
 ## view rtweet's authorization vignette
@@ -177,7 +174,7 @@ app_name <- "mwk_twitter_app"
 <span style="margin-left:15%"><img src="img/keys.png" width="60%" height="auto" /></span>
 
 ```{r}
-## copy and pasted keys
+## copy and pasted *your* keys (these are fake)
 consumer_key <- "XYznzPFOFZR2a39FwWKN1Jp41"
 consumer_secret <- "CtkGEWmSevZqJuKl6HHrBxbCybxI1xGLqrD5ynPd9jG0SoHZbD"
 ```
@@ -186,7 +183,7 @@ consumer_secret <- "CtkGEWmSevZqJuKl6HHrBxbCybxI1xGLqrD5ynPd9jG0SoHZbD"
 
 # Create a token
 
-<span>8.</span> Pass the stored values to `create_token()` to create the Twitter authorization token
+<span>8.</span> Pass the stored values to `create_token()` to create the Twitter authorization token.
 
 ```{r}
 ## create token
@@ -216,7 +213,7 @@ cat(env_var, file = file.path(path.expand("~"), ".Renviron"),
   fill = TRUE, append = TRUE)
 ```
 
-Normally `.Renviron` is processed on startup, so refresh it.
+Normally `.Renviron` is processed on start-up, so refresh it.
 
 ```{r}
 ## refresh .Renviron variables
@@ -257,7 +254,7 @@ Get the list of accounts **followed by** @jack (co-founder and CEO of Twitter).
 fds <- get_friends("jack")
 ```
 
-Or get friends of **multiple** users in a single call.
+Get friends of **multiple** users in a single call.
 
 ```{r}
 ## get friends of multiple accounts
@@ -357,7 +354,7 @@ Search by **source** of a tweet (e.g., only tweets sent using `ifttt`<sup> \* </
 
 ```{r}
 ## search for english tweets sent via ifttt
-rt <- search_tweets("lang: source:ifttt")
+rt <- search_tweets("lang:en source:ifttt", n = 300)
 table(rt$source)
 ```
 
@@ -404,7 +401,7 @@ kmw_favs <- get_favorites("kearneymw", n = 3000)
 ts_plot(kmw_favs, "3 days")
 ```
 
-<span style="margin-left:1%"><img src="img/cnn.png" width="90%" height="auto" /></span>
+<span style="margin-left:1%"><img src="img/kmw.png" width="90%" height="auto" /></span>
 
 
 ---
@@ -456,21 +453,21 @@ class: inverse, center, middle
 
 Capture tweets in real time via...
 
-- "Random" sampling
+- "Random" **sample**
 
 ```{r}
 ## random sample
 st <- stream_tweets(q = "", timeout = 30)
 ```
 
-- Filtering by keyword
+- **Filter** by keyword
 
 ```{r}
 ## keyword filter
 st <- stream_tweets(q = "realDonaldTrump,Mueller", timeout = 30)
 ```
 
-- Locating by bounding box
+- **Locate** by bounding box
 
 ```{r}
 ## geo location
