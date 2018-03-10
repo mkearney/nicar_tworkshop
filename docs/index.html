@@ -186,13 +186,41 @@ class: center, middle, inverse, title-slide
 
 
 background-image: url(img/logo.svg)
+class: center, bottom
+
+View these slides at [mkearney.github.io/nicar_tworkshop](https://mkearney.github.io/nicar_tworkshop)
+
+Follow along with the companion [script.R](../script.R) file on Github ([github.com/mkearney/nicar_tworkshop](https://github.com/mkearney/nicar_tworkshop))
 
 ---
 class: center, middle
 
+
+&lt;br \&gt;
+
+&lt;br \&gt;
+
+&lt;br \&gt;
+
+&lt;br \&gt;
+
+
 # rtweet
 
 ### /ärtwēt/
+
+
+&lt;br \&gt;
+
+&lt;br \&gt;
+
+&lt;br \&gt;
+
+&lt;br \&gt;
+
+
+See **{rtweet}** in action, [tracking tweets about \#NICAR18](https://github.com/computer-assisted-reporting/NICAR18)
+
 
 ---
 
@@ -423,37 +451,25 @@ fds &lt;- get_friends(c(&quot;hadleywickham&quot;, &quot;NateSilver538&quot;, &q
 fds
 ```
 
-&lt;table&gt;
- &lt;thead&gt;
-  &lt;tr&gt;
-   &lt;th style=&quot;text-align:left;&quot;&gt; user &lt;/th&gt;
-   &lt;th style=&quot;text-align:left;&quot;&gt; user_id &lt;/th&gt;
-  &lt;/tr&gt;
- &lt;/thead&gt;
+
+```
+#&gt; Warning: Rate limit exceeded
+```
+
+&lt;table class=&quot;kable_wrapper&quot;&gt;
 &lt;tbody&gt;
   &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; hadleywickham &lt;/td&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; 33540571 &lt;/td&gt;
-  &lt;/tr&gt;
+   &lt;td&gt; 
+
+&lt;table&gt;
+&lt;tbody&gt;
   &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; hadleywickham &lt;/td&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; 19556080 &lt;/td&gt;
+
   &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; hadleywickham &lt;/td&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; 50690435 &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; hadleywickham &lt;/td&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; 342845547 &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; hadleywickham &lt;/td&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; 14328698 &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; hadleywickham &lt;/td&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; 215035672 &lt;/td&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+ &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -567,23 +583,23 @@ table(rt$source)
 &lt;tbody&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt; IFTTT &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 67 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 65 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt; Twitter for Android &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 10 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 18 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt; Twitter Web Client &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 2 &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-   &lt;td style=&quot;text-align:left;&quot;&gt; Mobile Web (M2) &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 1 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 6 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style=&quot;text-align:left;&quot;&gt; Twitter for iPhone &lt;/td&gt;
-   &lt;td style=&quot;text-align:right;&quot;&gt; 1 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; ConsoleClown [VERIFIED] GS1 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 2 &lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

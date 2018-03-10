@@ -14,7 +14,6 @@ date: "<table style=\"border-style:none;padding-top:30px;\" class=\".table\">
 output:
   xaringan::moon_reader:
     css: ['robot', 'robot-fonts']
-    lib_dir: libs
     self_contained: true
     nature:
       highlightStyle: github
@@ -36,13 +35,41 @@ DT <- function(x) {
 ```
 
 background-image: url(img/logo.svg)
+class: center, bottom
+
+View these slides at [mkearney.github.io/nicar_tworkshop](https://mkearney.github.io/nicar_tworkshop)
+
+Follow along with the companion [script.R](../script.R) file on Github ([github.com/mkearney/nicar_tworkshop](https://github.com/mkearney/nicar_tworkshop))
 
 ---
 class: center, middle
 
+
+<br \>
+
+<br \>
+
+<br \>
+
+<br \>
+
+
 # rtweet
 
 ### /ärtwēt/
+
+
+<br \>
+
+<br \>
+
+<br \>
+
+<br \>
+
+
+See **{rtweet}** in action, [tracking tweets about \#NICAR18](https://github.com/computer-assisted-reporting/NICAR18)
+
 
 ---
 
