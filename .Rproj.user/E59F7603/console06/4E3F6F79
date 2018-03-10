@@ -1,254 +1,2 @@
-]0;~/R/nicar_tworkshop[?1034hMikes-MacBook-Air:nicar_tworkshop mwk$ [KMikes-MacBook-Air:nicar_tworkshop mwk$ cp ~/rtweet/vig[K[K[Kin[K[K[K[K[K[K[K[K[K[K [K/R/rtweet/vignettes/auth.Rmd [C[K[K[K[K[K[K[K[K[K
-auth.Rmd    files/      intro.Rmd   stream.Rmd  
-Mikes-MacBook-Air:nicar_tworkshop mwk$ cp ~/R/rtweet/vignettes/files/
-created.png        keys.png           stream-ts.png      
-creating.png       stream-filter.png  
-Mikes-MacBook-Air:nicar_tworkshop mwk$ cp ~/R/rtweet/vignettes/files/creating.png img/
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ cp ~/R/rtweet/vignettes/files/creating.png img/[C[1P[1P[1P[1@e[1@d[C[C[C[C[C[C[C[C[C
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ cp ~/R/rtweet/vignettes/files/created.png img/[1P[1P[1P[1P[1P[1P[1P[1@k[1@e[1@y[1@s
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ ls -lat ~/Dropbox/screenshots/
-total 29784
-drwxr-xr-x@ 200 mwk  staff     6400 Mar  9 18:25 .
--rw-r--r--@   1 mwk  staff   108274 Mar  9 18:25 screenshot 2018-03-09 at 6.25.24 PM.png
--rw-r--r--@   1 mwk  staff   100258 Mar  9 18:23 screenshot 2018-03-09 at 6.23.56 PM.png
--rw-r--r--@   1 mwk  staff    64685 Mar  9 18:23 screenshot 2018-03-09 at 6.23.29 PM.png
--rw-r--r--@   1 mwk  staff    62222 Mar  9 18:23 screenshot 2018-03-09 at 6.23.23 PM.png
--rw-r--r--@   1 mwk  staff    76326 Mar  9 18:21 screenshot 2018-03-09 at 6.21.31 PM.png
-drwx------@ 116 mwk  staff     3712 Mar  9 10:23 ..
--rw-r--r--@   1 mwk  staff    41530 Mar  9 10:23 harpus88.png
--rw-r--r--@   1 mwk  staff   340206 Mar  9 09:39 screenshot 2018-03-09 at 9.39.04 AM.png
--rw-r--r--@   1 mwk  staff    89677 Mar  8 23:10 screenshot 2018-03-08 at 11.10.22 PM.png
--rw-r--r--@   1 mwk  staff    86747 Mar  8 23:05 screenshot 2018-03-08 at 11.05.35 PM.png
--rw-r--r--@   1 mwk  staff    86958 Mar  8 23:05 screenshot 2018-03-08 at 11.05.04 PM.png
--rw-r--r--@   1 mwk  staff   489993 Mar  8 18:01 timefreq.png
--rw-r--r--@   1 mwk  staff    83140 Mar  7 17:56 screenshot 2018-03-07 at 5.56.12 PM.png
--rw-r--r--@   1 mwk  staff    43492 Mar  3 22:27 screenshot 2018-03-03 at 10.27.24 PM.png
--rw-r--r--@   1 mwk  staff    90079 Mar  3 19:50 screenshot 2018-03-03 at 7.50.10 PM.png
--rw-r--r--@   1 mwk  staff    45736 Mar  3 16:51 screenshot 2018-03-03 at 4.51.13 PM.png
--rw-r--r--@   1 mwk  staff   174794 Mar  1 12:39 screenshot 2018-03-01 at 12.39.11 PM.png
--rw-r--r--@   1 mwk  staff    20947 Feb 26 21:54 screenshot 2018-02-26 at 9.54.12 PM.png
--rw-r--r--@   1 mwk  staff    59464 Feb 26 16:00 screenshot 2018-02-26 at 4.00.19 PM.png
--rw-r--r--@   1 mwk  staff    35653 Feb 26 09:19 screenshot 2018-02-26 at 9.19.28 AM.png
--rw-r--r--@   1 mwk  staff    61487 Feb 26 08:11 na_datetimes.png
--rw-r--r--@   1 mwk  staff    49403 Feb 26 08:04 screenshot 2018-02-26 at 8.04.05 AM.png
--rw-r--r--@   1 mwk  staff    35353 Feb 26 08:01 screenshot 2018-02-26 at 8.01.48 AM.png
--rw-r--r--@   1 mwk  staff    49255 Feb 25 17:24 screenshot 2018-02-25 at 5.24.37 PM.png
--rw-r--r--@   1 mwk  staff    24098 Feb 25 16:18 screenshot 2018-02-25 at 4.18.51 PM.png
--rw-r--r--@   1 mwk  staff    66239 Feb 24 19:17 screenshot 2018-02-24 at 7.17.27 PM.png
--rw-r--r--@   1 mwk  staff    28039 Feb 24 18:48 screenshot 2018-02-24 at 6.48.29 PM.png
--rw-r--r--@   1 mwk  staff    14340 Feb 23 09:55 .DS_Store
--rw-r--r--@   1 mwk  staff    49365 Feb 21 20:34 screenshot 2018-02-21 at 8.34.23 PM.png
--rw-r--r--@   1 mwk  staff    84211 Feb 15 19:17 screenshot 2018-02-15 at 7.16.48 PM.png
--rw-r--r--@   1 mwk  staff    44347 Feb 15 19:13 screenshot 2018-02-15 at 7.13.39 PM.png
--rw-r--r--@   1 mwk  staff    60193 Feb 13 22:26 screenshot 2018-02-13 at 10.26.36 PM.png
--rw-r--r--@   1 mwk  staff    36553 Feb 13 22:19 screenshot 2018-02-13 at 10.19.20 PM.png
--rw-r--r--@   1 mwk  staff   156495 Feb 13 22:19 screenshot 2018-02-13 at 10.19.13 PM.png
--rw-r--r--@   1 mwk  staff    49137 Feb 13 22:18 screenshot 2018-02-13 at 10.17.54 PM.png
--rw-r--r--@   1 mwk  staff    88157 Feb 13 22:17 screenshot 2018-02-13 at 10.17.36 PM.png
--rw-r--r--@   1 mwk  staff   121293 Feb 13 22:12 screenshot 2018-02-13 at 10.12.40 PM.png
--rw-r--r--@   1 mwk  staff    34866 Feb 10 17:21 screenshot 2018-02-10 at 5.21.23 PM.png
--rw-r--r--@   1 mwk  staff    56959 Feb  9 10:29 screenshot 2018-02-09 at 10.29.21 AM.png
--rw-r--r--@   1 mwk  staff   108615 Feb  8 21:33 screenshot 2018-02-08 at 9.33.26 PM.png
--rw-r--r--@   1 mwk  staff    75714 Feb  6 18:18 screenshot 2018-02-06 at 6.18.12 PM.png
--rw-r--r--@   1 mwk  staff   114312 Feb  6 18:15 screenshot 2018-02-06 at 6.15.22 PM.png
--rw-r--r--@   1 mwk  staff    79593 Feb  6 18:14 screenshot 2018-02-06 at 6.14.47 PM.png
--rw-r--r--@   1 mwk  staff    57070 Feb  5 23:49 screenshot 2018-02-05 at 11.49.02 PM.png
--rw-r--r--@   1 mwk  staff    52418 Feb  5 23:48 screenshot 2018-02-05 at 11.48.41 PM.png
--rw-r--r--@   1 mwk  staff   102099 Feb  5 23:48 screenshot 2018-02-05 at 11.48.23 PM.png
--rw-r--r--@   1 mwk  staff    52830 Feb  5 23:47 screenshot 2018-02-05 at 11.47.21 PM.png
--rw-r--r--@   1 mwk  staff    51797 Feb  5 23:47 screenshot 2018-02-05 at 11.47.12 PM.png
--rw-r--r--@   1 mwk  staff    59580 Feb  5 23:47 screenshot 2018-02-05 at 11.47.05 PM.png
--rw-r--r--@   1 mwk  staff    69856 Feb  5 23:36 screenshot 2018-02-05 at 11.36.16 PM.png
--rw-r--r--@   1 mwk  staff    86224 Feb  5 23:34 screenshot 2018-02-05 at 11.34.13 PM.png
--rw-r--r--@   1 mwk  staff    87953 Feb  5 23:30 screenshot 2018-02-05 at 11.30.49 PM.png
--rw-r--r--@   1 mwk  staff    86080 Feb  5 23:30 screenshot 2018-02-05 at 11.30.16 PM.png
--rw-r--r--@   1 mwk  staff    93007 Feb  5 23:29 screenshot 2018-02-05 at 11.29.51 PM.png
--rw-r--r--@   1 mwk  staff    75488 Feb  5 23:25 screenshot 2018-02-05 at 11.25.40 PM.png
--rw-r--r--@   1 mwk  staff    40123 Feb  5 23:05 screenshot 2018-02-05 at 11.05.14 PM.png
--rw-r--r--@   1 mwk  staff    44315 Feb  5 23:03 screenshot 2018-02-05 at 11.03.54 PM.png
--rw-r--r--@   1 mwk  staff    34214 Feb  3 23:20 screenshot 2018-02-03 at 9.20.03 PM.png
--rw-r--r--@   1 mwk  staff    24017 Feb  3 23:16 screenshot 2018-02-03 at 9.16.32 PM.png
--rw-r--r--@   1 mwk  staff    52234 Feb  3 12:23 screenshot 2018-02-03 at 10.23.01 AM.png
--rw-r--r--@   1 mwk  staff    57818 Feb  1 14:27 screenshot 2018-02-01 at 12.27.14 PM.png
--rw-r--r--@   1 mwk  staff    22255 Feb  1 01:09 screenshot 2018-01-31 at 11.09.29 PM.png
--rw-r--r--@   1 mwk  staff    67420 Jan 30 08:15 screenshot 2018-01-30 at 8.15.07 AM.png
--rw-r--r--@   1 mwk  staff    78806 Jan 30 08:15 screenshot 2018-01-30 at 8.15.01 AM.png
--rw-r--r--@   1 mwk  staff    65238 Jan 23 22:01 screenshot 2018-01-23 at 10.01.16 PM.png
--rw-r--r--@   1 mwk  staff   148887 Jan 23 22:01 screenshot 2018-01-23 at 10.01.02 PM.png
--rw-r--r--@   1 mwk  staff    58673 Jan 21 20:31 keys.png
--rw-r--r--@   1 mwk  staff    88431 Jan 21 20:31 success.png
--rw-r--r--@   1 mwk  staff    24174 Jan 21 20:30 submit_app.png
--rw-r--r--@   1 mwk  staff    96079 Jan 21 20:30 create_app.png
--rw-r--r--@   1 mwk  staff   387620 Jan 20 13:33 irb.png
--rw-r--r--@   1 mwk  staff    71039 Jan 19 17:21 screenshot 2018-01-19 at 5.21.47 PM.png
--rw-r--r--@   1 mwk  staff    26051 Jan 18 20:25 screenshot 2018-01-18 at 8.25.17 PM.png
--rw-r--r--@   1 mwk  staff    23550 Jan 17 21:41 screenshot 2018-01-17 at 9.41.03 PM.png
--rw-r--r--@   1 mwk  staff    34701 Jan 17 21:40 screenshot 2018-01-17 at 9.40.50 PM.png
--rw-r--r--@   1 mwk  staff    90754 Jan  8 17:05 screenshot 2018-01-08 at 5.05.28 PM.png
--rw-r--r--@   1 mwk  staff     9891 Jan  5 17:10 screenshot 2018-01-05 at 5.10.24 PM.png
--rw-r--r--@   1 mwk  staff   143639 Jan  3 10:45 screenshot 2018-01-03 at 10.45.38 AM.png
--rw-r--r--@   1 mwk  staff    97100 Jan  3 10:45 screenshot 2018-01-03 at 10.45.20 AM.png
--rw-r--r--@   1 mwk  staff   150883 Jan  3 10:45 screenshot 2018-01-03 at 10.45.11 AM.png
--rw-r--r--@   1 mwk  staff   119613 Jan  3 10:44 screenshot 2018-01-03 at 10.44.52 AM.png
--rw-r--r--@   1 mwk  staff  1000008 Jan  1 22:13 us_elect_maps.png
--rw-r--r--@   1 mwk  staff   114003 Jan  1 21:03 screenshot 2018-01-01 at 10.02.58 PM.png
--rw-r--r--@   1 mwk  staff   127235 Jan  1 20:48 screenshot 2018-01-01 at 9.48.04 PM.png
--rw-r--r--@   1 mwk  staff    54189 Dec 31 15:02 screenshot 2017-12-31 at 4.02.07 PM.png
--rw-r--r--@   1 mwk  staff   100846 Dec 31 12:17 screenshot 2017-12-31 at 1.17.15 PM.png
--rw-r--r--@   1 mwk  staff    96921 Dec 31 12:17 screenshot 2017-12-31 at 1.17.03 PM.png
--rw-r--r--@   1 mwk  staff    33570 Dec 28 23:21 screenshot 2017-12-29 at 12.21.48 AM.png
--rw-r--r--@   1 mwk  staff   148650 Dec 24 12:07 screenshot 2017-12-24 at 12.58.54 PM.png
--rw-r--r--@   1 mwk  staff   126698 Dec 24 11:58 screenshot 2017-12-24 at 12.58.28 PM.png
--rw-r--r--@   1 mwk  staff    20124 Dec 22 10:33 screenshot 2017-12-22 at 11.33.00 AM.png
--rw-r--r--@   1 mwk  staff    38853 Dec 22 10:20 screenshot 2017-12-22 at 11.20.33 AM.png
--rw-r--r--@   1 mwk  staff    21319 Dec 22 10:17 screenshot 2017-12-22 at 11.17.45 AM.png
--rw-r--r--@   1 mwk  staff    41391 Dec 21 20:15 screenshot 2017-12-21 at 9.15.43 PM.png
--rw-r--r--@   1 mwk  staff    66916 Dec 21 20:15 screenshot 2017-12-21 at 9.15.32 PM.png
--rw-r--r--@   1 mwk  staff    67463 Dec 21 20:15 screenshot 2017-12-21 at 9.15.29 PM.png
--rw-r--r--@   1 mwk  staff    66111 Dec 21 20:15 screenshot 2017-12-21 at 9.15.23 PM.png
--rw-r--r--@   1 mwk  staff    43962 Dec 18 18:57 screenshot 2017-12-18 at 6.57.54 PM.png
--rw-r--r--@   1 mwk  staff    19792 Dec 15 13:48 screenshot 2017-12-15 at 1.48.17 PM.png
--rw-r--r--@   1 mwk  staff   151143 Dec 15 13:48 screenshot 2017-12-15 at 1.48.09 PM.png
--rw-r--r--@   1 mwk  staff   126165 Dec 15 13:48 screenshot 2017-12-15 at 1.48.04 PM.png
--rw-r--r--@   1 mwk  staff    80226 Dec 14 18:06 screenshot 2017-12-14 at 6.06.40 PM.png
--rw-r--r--@   1 mwk  staff    55040 Dec 14 17:47 screenshot 2017-12-14 at 5.47.11 PM.png
--rw-r--r--@   1 mwk  staff    18540 Dec 14 17:15 screenshot 2017-12-14 at 5.15.11 PM.png
--rw-r--r--@   1 mwk  staff   103640 Dec 13 21:07 screenshot 2017-12-13 at 9.07.29 PM.png
--rw-r--r--@   1 mwk  staff    83034 Dec 13 21:07 screenshot 2017-12-13 at 9.07.17 PM.png
--rw-r--r--@   1 mwk  staff    51269 Dec 13 21:07 screenshot 2017-12-13 at 9.07.07 PM.png
--rw-r--r--@   1 mwk  staff    40323 Dec 13 10:37 screenshot 2017-12-13 at 10.37.49 AM.png
--rw-r--r--@   1 mwk  staff    61155 Dec 13 09:31 screenshot 2017-12-13 at 9.30.54 AM.png
--rw-------@   1 mwk  staff    33175 Dec 13 09:00 sw.png
--rw-r--r--@   1 mwk  staff    15368 Dec 13 08:58 screenshot 2017-12-13 at 8.58.45 AM.png
--rw-r--r--@   1 mwk  staff    21781 Dec 13 08:54 screenshot 2017-12-13 at 8.54.44 AM.png
--rw-r--r--@   1 mwk  staff    76463 Dec 12 23:50 screenshot 2017-12-12 at 11.50.45 PM.png
--rw-r--r--@   1 mwk  staff   137928 Dec 12 23:04 screenshot 2017-12-12 at 11.04.45 PM.png
--rw-r--r--@   1 mwk  staff   130239 Dec 12 23:04 screenshot 2017-12-12 at 11.03.58 PM.png
--rw-r--r--@   1 mwk  staff   136648 Dec 12 20:49 screenshot 2017-12-12 at 8.49.47 PM.png
--rw-r--r--@   1 mwk  staff    54230 Dec 11 15:48 screenshot 2017-12-11 at 3.48.29 PM.png
--rw-r--r--@   1 mwk  staff    52484 Dec 11 15:48 screenshot 2017-12-11 at 3.48.17 PM.png
--rw-r--r--@   1 mwk  staff    43458 Dec 10 12:17 screenshot 2017-12-10 at 12.17.07 PM.png
--rw-r--r--@   1 mwk  staff   127065 Dec  9 23:36 screenshot 2017-12-09 at 11.36.30 PM.png
--rw-r--r--@   1 mwk  staff    33321 Dec  8 09:29 screenshot 2017-12-08 at 9.29.45 AM.png
--rw-r--r--@   1 mwk  staff    17678 Dec  6 19:52 screenshot 2017-12-06 at 7.52.09 PM.png
--rw-r--r--@   1 mwk  staff    43677 Dec  3 15:16 screenshot 2017-12-03 at 3.16.26 PM.png
--rw-r--r--@   1 mwk  staff   143680 Nov 26 19:10 bashrc-qfull.png
--rw-r--r--@   1 mwk  staff   116028 Nov 26 19:10 bashrc.png
--rw-r--r--@   1 mwk  staff    79584 Nov 26 19:04 bashrc-answer.png
--rw-r--r--@   1 mwk  staff    35505 Nov 26 19:04 bashrc-question.png
--rw-r--r--@   1 mwk  staff    84216 Nov 25 14:37 apthey.png
--rw-r--r--@   1 mwk  staff    58057 Nov 25 14:36 mwthey.png
--rw-r--r--@   1 mwk  staff    53474 Nov 25 14:33 screenshot 2017-11-25 at 2.33.21 PM.png
--rw-r--r--@   1 mwk  staff    42634 Nov 24 14:02 screenshot 2017-11-24 at 2.02.41 PM.png
--rw-r--r--@   1 mwk  staff    79794 Nov 24 14:02 screenshot 2017-11-24 at 2.02.31 PM.png
--rw-r--r--@   1 mwk  staff   127586 Nov 24 14:02 screenshot 2017-11-24 at 2.02.19 PM.png
--rw-r--r--@   1 mwk  staff   114600 Nov 24 11:24 screenshot 2017-11-24 at 11.24.32 AM.png
--rw-r--r--@   1 mwk  staff   146618 Nov 21 19:31 screenshot 2017-11-21 at 7.31.16 PM.png
--rw-r--r--@   1 mwk  staff    30649 Nov 20 18:47 screenshot 2017-11-20 at 6.47.24 PM.png
-drwxr-xr-x@  44 mwk  staff     1408 Nov 20 18:09 mod7ss
-drwxr-xr-x@  24 mwk  staff      768 Nov 20 18:09 slides
--rw-r--r--@   1 mwk  staff    19227 Nov 20 17:25 screenshot 2017-11-20 at 5.25.43 PM.png
--rw-r--r--@   1 mwk  staff   110214 Nov 18 10:07 screenshot 2017-11-18 at 10.07.21 AM.png
--rw-r--r--@   1 mwk  staff    54313 Nov 14 09:14 screenshot 2017-11-14 at 9.14.16 AM.png
--rw-r--r--@   1 mwk  staff    59031 Nov 11 10:06 screenshot 2017-11-11 at 10.05.52 AM.png
--rw-r--r--@   1 mwk  staff    67846 Nov  2 09:01 screenshot 2017-11-02 at 9.01.49 AM.png
--rw-r--r--@   1 mwk  staff    18851 Oct 21 13:20 screenshot 2017-10-21 at 1.20.49 PM.png
--rw-r--r--@   1 mwk  staff    21671 Oct 21 13:17 screenshot 2017-10-21 at 1.17.28 PM.png
--rw-r--r--@   1 mwk  staff    11490 Oct 15 00:10 screenshot 2017-10-15 at 12.10.15 AM.png
--rw-r--r--@   1 mwk  staff    97303 Oct 13 11:54 screenshot 2017-10-13 at 11.54.44 AM.png
--rw-r--r--@   1 mwk  staff    53249 Oct 13 11:36 screenshot 2017-10-13 at 11.36.22 AM.png
--rw-r--r--@   1 mwk  staff    62143 Oct 12 23:46 screenshot 2017-10-12 at 11.46.39 PM.png
--rw-r--r--@   1 mwk  staff    38476 Aug 21  2017 Screenshot 2017-08-21 23.24.20.png
--rw-r--r--@   1 mwk  staff    36747 Aug 21  2017 Screenshot 2017-08-21 23.22.48.png
--rw-r--r--@   1 mwk  staff   122353 Aug 21  2017 Screenshot 2017-08-21 20.12.25.png
--rw-r--r--@   1 mwk  staff    76296 Aug 21  2017 Screenshot 2017-08-21 20.04.36.png
--rw-r--r--@   1 mwk  staff    65332 Aug 21  2017 Screenshot 2017-08-21 20.04.26.png
--rw-r--r--@   1 mwk  staff   102437 Aug 21  2017 Screenshot 2017-08-21 19.52.19.png
--rw-r--r--@   1 mwk  staff    64064 Aug 21  2017 Screenshot 2017-08-21 19.51.39.png
--rw-r--r--@   1 mwk  staff    75075 Aug 21  2017 Screenshot 2017-08-21 19.48.39.png
--rw-r--r--@   1 mwk  staff    62968 Aug 20  2017 Screenshot 2017-08-20 16.51.38.png
--rw-r--r--@   1 mwk  staff    36967 Aug 19  2017 Screenshot 2017-08-19 15.26.49.png
--rw-r--r--@   1 mwk  staff    87183 Aug 19  2017 ss.png
--rw-r--r--@   1 mwk  staff   150417 Aug 16  2017 Screenshot 2017-08-16 09.37.07.png
--rw-r--r--@   1 mwk  staff    40971 Jul 26  2017 Screenshot 2017-07-26 09.02.02.png
--rw-r--r--@   1 mwk  staff   115978 Jul 26  2017 Screenshot 2017-07-26 08.17.32.png
--rw-r--r--@   1 mwk  staff    12810 Jul 24  2017 Screenshot 2017-07-24 09.36.48.png
--rw-r--r--@   1 mwk  staff    70111 Jul 23  2017 Screenshot 2017-07-23 11.49.07.png
--rw-r--r--@   1 mwk  staff    19244 Jul 22  2017 Screenshot 2017-07-22 21.25.12.png
--rw-r--r--@   1 mwk  staff    21278 Jul 14  2017 Screenshot 2017-07-14 12.49.56.png
--rw-r--r--@   1 mwk  staff    17421 Jul 14  2017 Screenshot 2017-07-14 12.48.52.png
--rw-r--r--@   1 mwk  staff    16756 Jul 14  2017 Screenshot 2017-07-14 12.46.20.png
--rw-r--r--@   1 mwk  staff    63858 Jul 14  2017 Screenshot 2017-07-14 08.46.28.png
--rw-r--r--@   1 mwk  staff    84222 Jul 13  2017 Screenshot 2017-07-13 17.37.51.png
--rw-r--r--@   1 mwk  staff   133289 Jul 13  2017 Screenshot 2017-07-13 17.23.24.png
--rw-r--r--@   1 mwk  staff     3258 Jul 10  2017 Screenshot 2017-07-10 18.05.50.png
--rw-r--r--@   1 mwk  staff    99343 Jul  3  2017 p3.pdf
--rw-r--r--@   1 mwk  staff    83032 Jul  3  2017 p2.pdf
--rw-r--r--@   1 mwk  staff    69472 Jul  3  2017 p1.pdf
--rw-r--r--@   1 mwk  staff    60708 Jun 28  2017 Screenshot 2017-06-28 08.17.38.png
--rw-r--r--@   1 mwk  staff    25141 Jun 28  2017 Screenshot 2017-06-28 08.17.25.png
--rw-r--r--@   1 mwk  staff    50020 Jun 26  2017 Screenshot 2017-06-26 14.31.06.png
--rw-r--r--@   1 mwk  staff    32995 Jun 26  2017 Screenshot 2017-06-26 09.29.45.png
--rw-r--r--@   1 mwk  staff    25901 Jun 26  2017 Screenshot 2017-06-26 09.29.37.png
--rw-r--r--@   1 mwk  staff    46925 Jun 26  2017 Screenshot 2017-06-26 09.27.35.png
--rw-r--r--@   1 mwk  staff    70691 Jun  9  2017 Screenshot 2017-06-09 19.57.40.png
--rw-r--r--@   1 mwk  staff    11535 Jun  8  2017 Screenshot 2017-06-08 23.40.41.png
--rw-r--r--@   1 mwk  staff    11153 Jun  8  2017 Screenshot 2017-06-08 22.51.24.png
--rw-r--r--@   1 mwk  staff    10975 Jun  8  2017 Screenshot 2017-06-08 19.32.27.png
--rw-r--r--@   1 mwk  staff   143455 Jun  8  2017 Screenshot 2017-06-08 19.27.34.png
--rw-r--r--@   1 mwk  staff    34356 Jun  8  2017 Screenshot 2017-06-08 18.48.02.png
--rw-r--r--@   1 mwk  staff    35267 Jun  8  2017 Screenshot 2017-06-08 18.46.36.png
--rw-r--r--@   1 mwk  staff    21825 Jun  8  2017 Screenshot 2017-06-08 17.18.17.png
--rw-r--r--@   1 mwk  staff     3235 Jun  8  2017 Screenshot 2017-06-08 17.18.00.png
--rw-r--r--@   1 mwk  staff    64895 Jun  6  2017 Screenshot 2017-06-06 18.32.25.png
--rw-r--r--@   1 mwk  staff    77864 Jun  6  2017 Screenshot 2017-06-06 18.07.19.png
--rw-r--r--@   1 mwk  staff     3311 Jun  6  2017 Screenshot 2017-06-06 18.07.13.png
--rw-r--r--@   1 mwk  staff    53173 Jun  6  2017 Screenshot 2017-06-06 18.06.40.png
--rw-r--r--@   1 mwk  staff    70139 Jun  6  2017 Screenshot 2017-06-06 18.06.24.png
--rw-r--r--@   1 mwk  staff    41619 Jun  6  2017 Screenshot 2017-06-06 18.02.05.png
--rw-r--r--@   1 mwk  staff    56636 May 30  2017 Screenshot 2017-05-30 23.23.19.png
--rw-r--r--@   1 mwk  staff    27528 May 30  2017 Screenshot 2017-05-30 21.45.32.png
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ mv D[K~/Dropbox/screenshots/Screenshot\ 2017-03-[K[K[K[K[K8-03-[K[K[K[K[K[K17-0
-Screenshot 2017-05-30 21.45.32.png  Screenshot 2017-07-10 18.05.50.png
-Screenshot 2017-05-30 23.23.19.png  Screenshot 2017-07-13 17.23.24.png
-Screenshot 2017-06-06 18.02.05.png  Screenshot 2017-07-13 17.37.51.png
-Screenshot 2017-06-06 18.06.24.png  Screenshot 2017-07-14 08.46.28.png
-Screenshot 2017-06-06 18.06.40.png  Screenshot 2017-07-14 12.46.20.png
-Screenshot 2017-06-06 18.07.13.png  Screenshot 2017-07-14 12.48.52.png
-Screenshot 2017-06-06 18.07.19.png  Screenshot 2017-07-14 12.49.56.png
-Screenshot 2017-06-06 18.32.25.png  Screenshot 2017-07-22 21.25.12.png
-Screenshot 2017-06-08 17.18.00.png  Screenshot 2017-07-23 11.49.07.png
-Screenshot 2017-06-08 17.18.17.png  Screenshot 2017-07-24 09.36.48.png
-Screenshot 2017-06-08 18.46.36.png  Screenshot 2017-07-26 08.17.32.png
-Screenshot 2017-06-08 18.48.02.png  Screenshot 2017-07-26 09.02.02.png
-Screenshot 2017-06-08 19.27.34.png  Screenshot 2017-08-16 09.37.07.png
-Screenshot 2017-06-08 19.32.27.png  Screenshot 2017-08-19 15.26.49.png
-Screenshot 2017-06-08 22.51.24.png  Screenshot 2017-08-20 16.51.38.png
-Screenshot 2017-06-08 23.40.41.png  Screenshot 2017-08-21 19.48.39.png
---More--
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ ls -lat ~/Dropbox/screenshots/[Kmv ~/Dropbox/screenshots/screenshot\ 201[K[K[K2018-03-09 at 6* im g/
-mv: rename /Users/mwk/Dropbox/screenshots/screenshot 2018-03-09 to img/screenshot 2018-03-09: No such file or directory
-mv: rename at to img/at: No such file or directory
-mv: rename 6* to img/6*: No such file or directory
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ mv ~/Dropbox/screenshots/screenshot\ 2018-03-09 at 6* imgg/[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K\ at\ 6*  img/
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ ls img
-created.png				screenshot 2018-03-09 at 6.23.23 PM.png
-creating.png				screenshot 2018-03-09 at 6.23.29 PM.png
-keys.png				screenshot 2018-03-09 at 6.23.56 PM.png
-logo.png				screenshot 2018-03-09 at 6.25.24 PM.png
-screenshot 2018-03-09 at 6.21.31 PM.png
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ mv img/screenshot\ 2018-03-09\ at\ 6.25[K3.56\ PM.png img/a pps.twitter.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K/a s[Kppstwittercom.png
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ mv img/screenshot\ 2018-03-09\ at\ 6.23.56\ PM.png img/apppstwittercom.png[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K.[K[K5.24\ PM.png img/a ppstwittercominfo[K[K[K[K_complete[K[K[K[K[K[K[K[Kfilled.png
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ mv img/screenshot\ 2018-03-09\ at\ 6.25.24\ PM.png img/apppstwittercom_filled.png[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3.56
-[C[C[C[C[C[C[C[C[C[C[C[C[C[7P.png[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls img[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ~/Dropbox/screenshots/screenshot\ 2018-03-09\ at\ 6* iimg/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls img[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv img/screenshot\ 2018-03-09\ at\ 6.23.56\ PM.png img/apppstwittercom.png[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5.24
-[C[C[C[C[C[C[C[C[C[C[C[C[C_filled.png[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv img/screenshot\ 2018-03-09\ at\ 6.25.24\ PM.png img/apppstwittercom_filled.png[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K3.23\ PM.png img/c reatenewapp.png
-]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ [KMikes-MacBook-Air:nicar_tworkshop mwk$ [H[2JMikes-MacBook-Air:nicar_tworkshop mwk$ c[Kgit init
-Initialized empty Git repository in /Users/mwk/R/nicar_tworkshop/.git/
+
 ]0;~/R/nicar_tworkshopMikes-MacBook-Air:nicar_tworkshop mwk$ git add .
