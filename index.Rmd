@@ -576,6 +576,138 @@ Machine learning model trained on data set containing over 7,000 known bot (auto
 - Package repo: [github.com/mkearney/botornot/](https://github.com/mkearney/botornot)
 - The Shiny app: [mikewk.shinyapps.io/botornot/](https://mikewk.shinyapps.io/botornot/)
 
+
+---
+class: inverse, center, middle
+
+# Data: Trump tweets
+
+---
+
+# Trump tweets
+
+Read in data set of @realDonaldTrump tweets and plot time series.
+
+```{r}
+## read in data
+tt <- readRDS("rtweet-trumpdata.rds")
+
+## quick time series
+ts_plot(tt, "weeks")
+```
+
+
+<span style="margin-left:10%"><img src="img/tt_weeks.png" width="80%" height="auto" /></span>
+
+
+---
+
+# Sentiment analysis
+
+Define some functions and then calculate sentiment by time interval.
+
+```{r}
+## function to round time (created_at)
+round_time <- function(x, secs) as.POSIXct(hms::round_hms(x, secs))
+## function to calculate sentiment scores
+sent_scores <- function(x) syuzhet::get_sentiment(plain_tweets(x)) - .5
+
+## calc data set with sentiment variable
+tt_sent <- tt %>%
+  mutate(days = round_time(created_at, 60 * 60 * 24),
+    sentiment = sent_scores(text))
+
+## aggregate by rounded time interval
+tt_sent  %>% 
+  group_by(days) %>%
+  summarise(sentiment = sum(sentiment, na.rm = TRUE)) %>%
+  ggplot(aes(x = weeks, y = sentiment)) +
+  geom_point(aes(colour = sentiment > 0)) + 
+  geom_smooth(method = "loess", span = .2) + 
+  scale_color_manual(values = c("#dd3333", "#22aa33")) + 
+  geom_hline(yintercept = 0, linetype = 2, colour = "#000000cc") + 
+  theme_minimal(base_family = "Helvetica Neue")
+```
+
+---
+
+# Now on CRAN
+
+The **{textfeatures}** package.
+
+```{r}
+## aggregate text features by the hour
+tt_tft <- tt %>% 
+  filter(created_at > "2010-12-31") %>%
+  mutate(hours = round_time(created_at, 60 * 60)) %>%
+  group_by(hours) %>%
+  textfeatures::textfeatures() %>%
+  print()
+```
+
+
+```{r, eval=TRUE, echo=FALSE}
+tt_tft <- readRDS("data/tt_tft.rds")
+DT(tt_tft[, 1:5])
+```
+
+---
+
+# Plot change in text features over time
+
+```{r}
+## plot [smoothing] text features over time
+tt_tft %>%
+  filter(hours > "2014-05-31") %>%
+  mutate_if(is.numeric, function(x) scale(x)[, 1]) %>%
+  gather(feature, n, -hours) %>%
+  ggplot(aes(x = hours, y = n, colour = feature)) + 
+  geom_vline(xintercept = as.POSIXct("2016-11-08"),
+    colour = "#aa000077", size = .9, linetype = 2) +
+  geom_smooth(method = "loess", span = .1) + 
+  facet_wrap(~ feature, ncol = 6)
+```
+
+---
+
+<br />
+
+<span style="margin-left:0%"><img src="img/trumptextfeatures.png" width="101%" height="auto" /></span>
+
+---
+
+<br />
+
+<span style="margin-left:0%"><img src="img/trumptextfeatures-zoom.png" width="101%" height="auto" /></span>
+
+```{r, echo=FALSE}
+tt_tft %>%
+  filter(hours > "2016-04-30" & hours < "2017-02-01") %>%
+  mutate_if(is.numeric, function(x) scale(x)[, 1]) %>%
+  gather(feature, n, -hours) %>%
+  ggplot(aes(x = hours, y = n, colour = feature)) + 
+  geom_vline(xintercept = as.POSIXct("2016-11-08"),
+    colour = "#aa000077", size = .9, linetype = 2) +
+  geom_smooth(method = "loess", span = .225) + 
+  facet_wrap(~ feature, ncol = 6) + 
+  labs(title = "Text features of @realDonaldTrump tweets in closing months of 2016",
+    x = NULL, y = "Standardized Mean Frequencies") + 
+  scale_x_datetime(date_breaks = "months", 
+    date_labels = "%b") + 
+  theme_mwk(base_family = "Roboto Condensed", base_size = 15, 
+    light = "#f7f7f7", gray = "#e0e0e0") + 
+  theme(
+    axis.text = element_text(size = rel(.68)),
+    strip.text = element_text(size = rel(.75)),
+    strip.text.x = element_text(margin = margin(5, 3, 6, 3, "pt")),
+    panel.grid.major = element_line(colour = "black", size = rel(.10)),
+    panel.grid.minor = element_line(colour = "black", size = rel(.05)),
+    legend.position = "none") + 
+  coord_cartesian(xlim = c(lubridate::ymd_h("2016-06-30 0"),
+    lubridate::ymd_h("2016-12-31 24")), ylim = c(-.7, .8)) + 
+  ggsave("~/Desktop/trumptextfeatures-zoom.png")
+```
+
 ---
 class: inverse, center, middle
 
