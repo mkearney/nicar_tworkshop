@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1520632166052.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F6200F19",
+    "lastKnownWriteTime" : 1520668432,
+    "last_content_update" : 1520668432333,
+    "path" : "~/R/nicar_tworkshop/slides.Rmd",
+    "project_path" : "slides.Rmd",
+    "properties" : {
+        "cursorPosition" : "266,0",
+        "scrollLine" : "256",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

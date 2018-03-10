@@ -1,0 +1,9 @@
+fa <- rmarkdown::html_dependency_font_awesome()
+fa <- system.file(package = "bookdown", 
+  "resources/gitbook/css/fontawesome/fontawesome-webfont.tff")
+fa$attachment <- "fonts/fontawesome-webfont.ttf"
+htmltools::tagList(fa)
+
+htmltools::htmlDependency("font-awesome", src = fa, )
+
+?htmltools::htmlDependency
